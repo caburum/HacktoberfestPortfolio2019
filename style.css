@@ -1,1 +1,57 @@
+* {
+  font-family: Helvetica;
+  color: #333;
+}
 
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.main-text {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1em;
+  margin-bottom: 48px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.skills {
+  width: 39%;
+  margin: auto;
+  margin-top: -8px;
+}
+
+.icon-html {
+  width: 64px;
+}
+
+.icon-css {
+  width: 48px;
+  margin-bottom: -4px;
+}
+
+.icon-js {
+  width: 54px;
+  margin-left: 4px;
+}
+
+.icon-python {
+  height: 64px;
+  margin-bottom: -8px;
+  margin-left: -4px;
+}
