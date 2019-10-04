@@ -1,6 +1,8 @@
 * {
   font-family: Helvetica;
   color: #333;
+  margin:0;
+  padding:0;
 }
 
 p {
@@ -9,10 +11,19 @@ p {
 }
 
 .container {
-  width: 960px;
+  width: 80%;
   margin: auto;
   margin-top: 10%;
+  height:100%;
+  -webkit-box-shadow: 5px 9px 15px -12px #000000; 
+  box-shadow: 5px 9px 15px -12px #000000;
+  border-radius:5px;
+  border:1px solid #ccc;
+  animation-name:zoomIn;
+  animation-duration:1s;
 }
+
+
 
 .main-text {
   font-size: 64px;
@@ -20,10 +31,12 @@ p {
   letter-spacing: -2px;
   line-height: 1em;
   margin-bottom: 48px;
+  margin-top:40px;
 }
 
 .text-center {
   text-align: center;
+  margin-bottom:20px;
 }
 
 .label {
@@ -33,21 +46,28 @@ p {
 .skills {
   width: 50%;
   margin: auto;
-  margin-top: -8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:50px;
+  flex-wrap:wrap;
 }
 
+
+.skills img{
+
+  height:65px;
+}
 .icon-html {
   width: 64px;
 }
 
 .icon-css {
   width: 48px;
-  margin-bottom: -4px;
 }
 
 .icon-js {
   width: 54px;
-  margin-left: 4px;
 }
 
 .icon-python {
@@ -85,3 +105,36 @@ p {
 }
 
 /* END OF LOADING SCREEN STYLING */
+
+.letter {
+  transition: .1s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+/*Animation*/
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
