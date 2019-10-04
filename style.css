@@ -79,9 +79,14 @@ p {
 .letter {
   transition: .1s ease-in-out;
 }
-=======
+
 .hidden {
   display: none;
+  outline: none;
+}
+
+.hidden:focus {
+  outline:none;
 }
 
 /*Animation*/
