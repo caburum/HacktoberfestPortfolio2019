@@ -10,6 +10,7 @@ If you have any questions or requests feel free to message me!
 - Keep pull requests small to minimize merge conflicts
 - Make sure there is no merge conflict
 - Fun things! This is not suppose to be serious. Be creative and add easter eggs
+- **Try to fix all merge issues**
 
 ## What not to Do
 - Spam! Small contributions like minor styling or spell correction is accepted but obvious spam for the t-shirt will be labeled invalid.
