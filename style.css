@@ -56,6 +56,24 @@ p {
 
   height:65px;
 }
+
+.its-a-me {
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  width: 400px;
+  left: -200px;
+  transition: left 800ms ease-in-out;
+}
+
+.its-a-me:hover {
+  left: 0;
+}
+
+.mr-m {
+  display: fixed;
+}
+
 .icon-html {
   width: 64px;
 }
