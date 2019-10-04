@@ -76,6 +76,10 @@ p {
   margin-left: -4px;
 }
 
+.letter {
+  transition: .1s ease-in-out;
+}
+=======
 .hidden {
   display: none;
 }
