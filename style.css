@@ -55,3 +55,7 @@ p {
   margin-bottom: -8px;
   margin-left: -4px;
 }
+
+.letter {
+  transition: .1s ease-in-out;
+}
