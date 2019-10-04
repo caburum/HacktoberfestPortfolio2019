@@ -76,6 +76,36 @@ p {
   margin-left: -4px;
 }
 
+/* LOADING SCREEN STYLING */
+
+#loading_screen {
+  background-color: #141414;
+  bottom: 0;
+  color: black;
+  display: block;
+  font-size: 32px;
+  left: 0;
+  overflow: hidden;
+  padding-top: 10vh;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.fadeout {
+  animation: fadeout 0.8s forwards;
+}
+
+@keyframes fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/* END OF LOADING SCREEN STYLING */
+
 .letter {
   transition: .1s ease-in-out;
 }
