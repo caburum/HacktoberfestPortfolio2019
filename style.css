@@ -70,6 +70,15 @@ p {
   width: 54px;
 }
 
+.icon-python {
+  height: 64px;
+  margin-bottom: -8px;
+  margin-left: -4px;
+}
+
+.hidden {
+  display: none;
+}
 
 /*Animation*/
 @-webkit-keyframes zoomIn {
@@ -95,4 +104,3 @@ p {
     opacity: 1;
   }
 }
-
