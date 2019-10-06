@@ -158,3 +158,10 @@ p {
     opacity: 1;
   }
 }
+
+/* Style for Rain Code easter egg */
+canvas#canvasRain{
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
