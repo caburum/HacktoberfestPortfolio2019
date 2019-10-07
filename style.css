@@ -5,6 +5,12 @@
   padding:0;
 }
 
+body {
+  background-image: url(images/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
 p {
   font-size: 18px;
   line-height: 1.5em;
@@ -21,6 +27,7 @@ p {
   border:1px solid #ccc;
   animation-name:zoomIn;
   animation-duration:1s;
+  background-color: #fff;
 }
 
 .main-text {
