@@ -119,3 +119,12 @@ function makeRainCode() {
     
     setInterval(draw, 33);
 }
+
+// Magical CSS Background Color
+document.querySelector('.icon-css').addEventListener('mouseenter', () => {
+  
+  const generateNumber = () => Math.floor(Math.random() * 255)
+  const rgb = `rgb(${generateNumber()}, ${generateNumber()}, ${generateNumber()})`
+
+  document.querySelector('.container').style.backgroundColor = rgb;
+})
