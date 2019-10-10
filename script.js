@@ -72,10 +72,10 @@ var counter = 0;
 var times = 10;
 document.querySelector('#codeEffect').addEventListener('click', function() {
     if (counter === times) {
-        alert('Wecolme to code World!')
-        document.querySelectorAll('body span, p, a').forEach(function(el) {
-            el.style.color = '#FFFFFF';
-        });
+        alert('Wecolme to code World!');
+//        document.querySelectorAll('body span, p, a').forEach(function(el) {
+//            el.style.color = '#FFFFFF';
+//        });
         makeRainCode();
     }
     counter++;
