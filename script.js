@@ -121,7 +121,7 @@ function makeRainCode() {
 }
 
 // Magical CSS Background Color
-document.querySelector('.icon-css').addEventListener('mouseenter', () => {
+document.querySelector('#icon-css').addEventListener('mouseenter', () => {
   
   const generateNumber = () => Math.floor(Math.random() * 255)
   const rgb = `rgb(${generateNumber()}, ${generateNumber()}, ${generateNumber()})`
