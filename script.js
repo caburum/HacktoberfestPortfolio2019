@@ -75,12 +75,10 @@ document.querySelector('#codeEffect').addEventListener('click', function() {
     if (counter === times) {
         alert('Wecolme to code World!');
         document.querySelectorAll('body span, p, a').forEach(function(el) {
-            el.style.color = '#FFFFFF';
-	    console.log("text");
+		el.style.color = '#FFFFFF';
         });
         document.querySelectorAll('div').forEach(function(el) {
-            el.style.color = '#FFFFFF';
-	    console.log("div");
+		el.style.background-color = '#FFFFFF';
         });
         makeRainCode();
     }
