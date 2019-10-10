@@ -55,6 +55,7 @@ if ( window.addEventListener ) {
 }
 
 // There should be an input somewhere, I don't know where though
+/*
 console.log("Let the hunt begin");
 
 let iAm;
@@ -65,7 +66,7 @@ document.querySelector('.input.hidden').addEventListener('change', function() {
 		console.log('Try running: "IAM" in your js console!')
 	}
 });
-
+*/
 
 // Click specified times to rain words like Matrix movie.
 var counter = 0;
