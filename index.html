@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Calum's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-  </head>
 
-  <body>
-    <canvas id="canvasRain"></canvas>
-    <div id="loading_screen"></div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Calum's Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
 
-      <input class="input hidden">
-      <div class="container">
-        <p class="main-text text-center" id="show">Hi, I am Calum Dingwall, a Tech Guy.</p>
-        <p class="text-center">I like to play video games, learn how to <span id="codeEffect">code</span> and make YouTube videos. I have a YouTube channel called <a href="https://www.youtube.com/channel/UCdbdk0CJ_w11DT13JYCJ7hA">CalumND9 CREATIVE.</a></p>
-        <br>
-        <p class="label text-center">My Skills</p>
-        <div class="skills">
-          <a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=html">
-            <img class="icon-html" src="images/html.png" alt="HTML" />
-          </a>
-          <a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=html">
-            <img class="icon-css" src="images/css.png" alt="CSS" />
-          </a>
-          <a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript">
-            <img class="icon-js" src="images/js.png" alt="JS" />
-          </a>
-          <a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python">
-            <img class="icon-python" src="images/python.png" alt="Python" />
-          </a>
-          <a href="https://www.youtube.com/channel/UCdbdk0CJ_w11DT13JYCJ7hA">
-            <img class=".youtube-icon" src="images/youtube.png" alt="YouTube" />
-          </a>
-        </div>
-        <br />
-        <p class="text-center">Feel free to look at my <a href="https://github.com/CCreativeCND">Github</a></p>
-      </div>
-    
-    <audio id="mgsalert">
-      <source src="sounds/mgsalert.mp3" type="audio/mpeg">
-    </audio>
-    <div class="its-a-me">
-      <img class="mr-m" src="./images/mr-m.gif">
-    </div>
-    <script src="script.js"></script>
-  </body>
+<body>
+	<canvas id="canvasRain"></canvas>
+	<div id="loading_screen"></div>
+
+	<input class="input hidden">
+	<div class="container">
+		<p class="main-text text-center" id="show">Hi, I am Calum Dingwall, a Tech Guy.</p>
+		<p class="text-center">I like to play video games, learn how to <span id="codeEffect">code</span> and make
+			YouTube videos. I have a YouTube channel called <a
+				href="https://www.youtube.com/channel/UCdbdk0CJ_w11DT13JYCJ7hA">CalumND9 CREATIVE.</a></p>
+		<br>
+		<p class="label text-center">My Skills</p>
+		<div class="skills">
+			<div class="card p-3">
+				<a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=html">
+					<img class="icon-html" src="images/html.png" alt="HTML" />
+				</a>
+			</div>
+			<div class="card p-3">
+				<a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=html">
+					<img class="icon-css" src="images/css.png" alt="CSS" />
+				</a>
+			</div>
+			<div class="card p-3">
+				<a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript">
+					<img class="icon-js" src="images/js.png" alt="JS" />
+				</a>
+			</div>
+			<div class="card p-3">
+				<a href="https://github.com/CCreativeCND?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python">
+					<img class="icon-python" src="images/python.png" alt="Python" />
+				</a>
+			</div>
+			<div class="card p-3">
+				<a href="https://www.youtube.com/channel/UCdbdk0CJ_w11DT13JYCJ7hA">
+					<img class=".youtube-icon" src="images/youtube.png" alt="YouTube" />
+				</a>
+			</div>
+		</div>
+		<br />
+		<p class="text-center">Feel free to look at my <a href="https://github.com/CCreativeCND">Github</a></p>
+	</div>
+
+	<audio id="mgsalert">
+		<source src="sounds/mgsalert.mp3" type="audio/mpeg">
+	</audio>
+	<div class="its-a-me">
+		<img class="mr-m" src="./images/mr-m.gif">
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
 </html>
 
 <!--
