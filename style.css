@@ -1,8 +1,8 @@
 * {
   font-family: Helvetica;
   color: #333;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -20,13 +20,13 @@ p {
   width: 80%;
   margin: auto;
   margin-top: 10%;
-  height:100%;
-  -webkit-box-shadow: 5px 9px 15px -12px #000000; 
+  height: 100%;
+  -webkit-box-shadow: 5px 9px 15px -12px #000000;
   box-shadow: 5px 9px 15px -12px #000000;
-  border-radius:5px;
-  border:1px solid #ccc;
-  animation-name:zoomIn;
-  animation-duration:1s;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  animation-name: zoomIn;
+  animation-duration: 1s;
   background-color: #fff;
 }
 
@@ -36,12 +36,12 @@ p {
   letter-spacing: -2px;
   line-height: 1em;
   margin-bottom: 48px;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 .text-center {
   text-align: center;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .label {
@@ -51,17 +51,15 @@ p {
 .skills {
   width: 50%;
   margin: auto;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-top:50px;
-  flex-wrap:wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
-
-.skills img{
-
-  height:65px;
+.skills img {
+  height: 65px;
 }
 
 .its-a-me {
@@ -130,7 +128,7 @@ p {
 /* END OF LOADING SCREEN STYLING */
 
 .letter {
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 
 .hidden {
@@ -138,7 +136,7 @@ p {
 }
 
 .hidden:focus {
-  outline:none;
+  outline: none;
 }
 
 /*Animation*/
@@ -167,9 +165,25 @@ p {
 }
 
 /* Style for Rain Code easter egg */
-canvas#canvasRain{
+canvas#canvasRain {
   display: block;
   position: absolute;
   z-index: -1;
   top: 0px;
+}
+
+.card {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-text {
+    font-size: 40px;
+  }
+  .skills {
+    align-items: center;
+    justify-content: center;
+  }
 }
