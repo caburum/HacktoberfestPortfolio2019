@@ -52,10 +52,15 @@ p {
   -webkit-box-shadow: 5px 9px 15px -12px #000000;
   box-shadow: 5px 9px 15px -12px #000000;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   animation-name: zoomIn;
   animation-duration: 1s;
   background-color: #fff;
+  transition-duration: 0.5s;
+}
+
+.container:hover {
+  border: 20px solid #00b6cc;
 }
 
 .main-text {
@@ -266,4 +271,14 @@ canvas#canvasRain {
     align-items: center;
     justify-content: center;
   }
+}
+
+/* Comic Sans */
+.comic-sans {
+  transition-duration: 0.5s;
+}
+
+.comic-sans:hover {
+  background-color: red;
+  font-family: "Comic Sans MS", sans-serif !important;
 }
