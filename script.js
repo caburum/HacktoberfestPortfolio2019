@@ -1,6 +1,5 @@
 // LOADING SCREEN SCRIPT
 // We will use a fake timer that will add the fadeout class after the timer ends.
-
 const initLoadingScreen = () => {
   setTimeout(() => {
     document.getElementById("loading_screen").classList.add("fadeout");
@@ -11,9 +10,7 @@ initLoadingScreen();
 
 document.onload = show();
 
-/**
- * Get text from element and create span element for every letter for text animation
- */
+// Get text from element and create span element for every letter for text animation
 function show() {
     const text = document.getElementById('show');
     const string_split = text.innerHTML.split('');
