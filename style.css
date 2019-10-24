@@ -16,29 +16,6 @@ body {
 	        animation: gradientBG 10s ease infinite;
 }
 
-@-webkit-keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-@keyframes gradientBG {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 p {
   font-size: 18px;
   line-height: 1.5em;
@@ -77,12 +54,21 @@ p {
   margin-bottom: 20px;
 }
 
-
 .label {
   font-weight: bold;
 }
 
+.letter {
+  transition: 0.1s ease-in-out;
+}
 
+.card {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* Skills Styling */
 .skills {
   width: 50%;
   margin: auto;
@@ -92,6 +78,7 @@ p {
   margin-top: 50px;
   flex-wrap: wrap;
 }
+
 .flex-item-1 {
   order: 3;
 }
@@ -111,10 +98,13 @@ p {
 .skills img {
   height: 65px;
 }
+
+/* Icon Drop */
 .icon-drop{
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
 }
+
 .icon-drop:hover{
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -132,36 +122,16 @@ p {
   animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-@-webkit-keyframes icon-drop {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  51%,
-	100% {
-    opacity: 1;
-  }
-}
-@keyframes icon-drop {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-  }
-  51%,
-	100% {
-    opacity: 1;
-  }
+/* Scavenger Hunt */
+.hidden {
+  outline: none;
 }
 
+.hidden:focus {
+  outline: none;
+}
 
+/* Mr M */
 .its-a-me {
   position: fixed;
   bottom: 0;
@@ -179,26 +149,7 @@ p {
   display: fixed;
 }
 
-/* .icon-html {
-  width: 64px;
-}
-
-.icon-css {
-  width: 48px;
-}
-
-.icon-js {
-  width: 54px;
-}
-
-.icon-python {
-  height: 64px;
-  margin-bottom: -8px;
-  margin-left: -4px;
-} */
-
-/* LOADING SCREEN STYLING */
-
+/* Loading Screen */
 #loading_screen {
   background-color: #141414;
   bottom: 0;
@@ -218,28 +169,25 @@ p {
   animation: fadeout 0.8s forwards;
 }
 
-@keyframes fadeout {
-  to {
-    opacity: 0;
-    visibility: hidden;
-  }
+/* Comic Sans */
+.comic-sans {
+  transition-duration: 0.5s;
 }
 
-/* END OF LOADING SCREEN STYLING */
-
-.letter {
-  transition: 0.1s ease-in-out;
+.comic-sans:hover {
+  /*background-color: red;*/
+  font-family: "Comic Sans MS", sans-serif !important;
 }
 
-.hidden {
-  outline: none;
+/* Rain Code */
+canvas#canvasRain {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
 }
 
-.hidden:focus {
-  outline: none;
-}
-
-/*Animation*/
+/* Animations */
 @-webkit-keyframes zoomIn {
   from {
     opacity: 0;
@@ -264,21 +212,68 @@ p {
   }
 }
 
-/* Style for Rain Code easter egg */
-canvas#canvasRain {
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 0px;
+@keyframes fadeout {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
-.card {
-  margin-bottom: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-
+@-webkit-keyframes icon-drop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  51%,
+	100% {
+    opacity: 1;
+  }
 }
 
+@keyframes icon-drop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  51%,
+	100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Small Screen Styling */
 @media only screen and (max-width: 760px) {
   .main-text {
     font-size: 40px;
@@ -289,12 +284,20 @@ canvas#canvasRain {
   }
 }
 
-/* Comic Sans */
-.comic-sans {
-  transition-duration: 0.5s;
+/* .icon-html {
+  width: 64px;
 }
 
-.comic-sans:hover {
-  background-color: red;
-  font-family: "Comic Sans MS", sans-serif !important;
+.icon-css {
+  width: 48px;
 }
+
+.icon-js {
+  width: 54px;
+}
+
+.icon-python {
+  height: 64px;
+  margin-bottom: -8px;
+  margin-left: -4px;
+} */
