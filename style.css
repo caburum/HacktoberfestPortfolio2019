@@ -79,22 +79,6 @@ p {
   flex-wrap: wrap;
 }
 
-.flex-item-1 {
-  order: 3;
-}
-.flex-item-2 {
-  order: 5;
-}
-.flex-item-3 {
-  order: 1;
-}
-.flex-item-4 {
-  order: 4;
-}
-.flex-item-5 {
-  order: 2;
-}
-
 .skills img {
   height: 65px;
 }
