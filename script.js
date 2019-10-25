@@ -131,7 +131,6 @@ document.querySelector('#icon-css').addEventListener('mouseenter', () => {
 $(".icon-js").mouseover(function () {
   $(".icon-python").attr("src", "images/sans_square450.png");
 });
-
 $(".icon-js").mouseleave(function () {
   $(".icon-python").attr("src", "images/python.png");
 });
