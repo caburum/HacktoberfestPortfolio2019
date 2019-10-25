@@ -32,8 +32,7 @@ function show() {
         if(c == text.children.length) {
             clearInterval(interval);
         }
-        }
-        , 25);
+    }, 25);
 }
 
 // Konami code easter egg
