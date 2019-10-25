@@ -127,9 +127,9 @@ document.querySelector('#icon-css').addEventListener('mouseenter', () => {
 })
 
 // Sans Image
-$(".icon-js").mouseover(function () {
-  $(".icon-python").attr("src", "images/sans_square450.png");
+$("#icon-js").mouseover(function () {
+  $("#icon-python").attr("src", "images/sans_square450.png");
 });
-$(".icon-js").mouseleave(function () {
-  $(".icon-python").attr("src", "images/python.png");
+$("#icon-js").mouseleave(function () {
+  $("#icon-python").attr("src", "images/python.png");
 });
