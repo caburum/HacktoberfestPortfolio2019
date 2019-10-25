@@ -126,3 +126,12 @@ document.querySelector('#icon-css').addEventListener('mouseenter', () => {
 
   document.querySelector('.container').style.backgroundColor = rgb;
 })
+
+// Sans Image
+$(".icon-js").mouseover(function () {
+  $(".icon-python").attr("src", "images/sans_square450.png");
+});
+
+$(".icon-js").mouseleave(function () {
+  $(".icon-python").attr("src", "images/python.png");
+});
