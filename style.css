@@ -36,9 +36,9 @@ p {
   transition-duration: 0.5s;
 }
 
-.container:hover {
+/*.container:hover {
   border: 20px solid #00b6cc;
-}
+}*/
 
 .main-text {
   font-size: 64px;
