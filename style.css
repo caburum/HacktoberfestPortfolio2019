@@ -41,7 +41,7 @@ p {
 }*/
 
 .main-text {
-  font-size: 64px;
+  font-size: 70px;
   font-weight: bold;
   letter-spacing: -2px;
   line-height: 1em;
@@ -70,7 +70,7 @@ p {
 
 /* Skills Styling */
 .skills {
-  width: 50%;
+  width: 70%;
   margin: auto;
   display: flex;
   justify-content: space-between;
