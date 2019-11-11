@@ -1,3 +1,4 @@
+# This has been archived since Hacktoberfest 2019 is over. Check back for a new project next year.
 <img src="https://reflect.ucl.ac.uk/hacktoberfest2019/files/2019/09/Hacktoberfest_19_Banner.png" />
 
 ## About This
